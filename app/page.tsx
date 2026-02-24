@@ -31,12 +31,13 @@ export default function Home() {
         </div>
 
         <Image
-        className="I"
+        className="rounded-2xl shadow-md"
           src="/eu.png"
           alt="eu"
           width={200}
           height={200}
           priority
+          
         />
 
         <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
