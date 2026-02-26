@@ -5,13 +5,13 @@ interface Props {
     src: string;
     title: string;
     description: string;
-    url: string;
+    href: string;
 }
 
-export default function Card({src, title, description, url}: Props){
+export default function Card({src, title, description, href}: Props){
     return(
 
-       <Link href={url} target="_blank" rel="noopener noreferrer">
+       <Link href={href} target="_blank" rel="noopener noreferrer">
        
     <div className="flex flex-col h-64 w-64 rounded-lg bg-white">
         <div className="flex-1 relative">
